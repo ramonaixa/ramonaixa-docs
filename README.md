@@ -1,4 +1,4 @@
-# 📚 ramonaixa-docs · Documentación técnica y homelab personal
+# Documentación técnica y homelab personal
 
 Este repositorio contiene la documentación de mis laboratorios técnicos, proyectos personales y prácticas reales en entornos IT. Está estructurado como si fuera un sitio profesional de documentación, accesible mediante [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
 
@@ -11,7 +11,7 @@ Este repositorio contiene la documentación de mis laboratorios técnicos, proye
 Soy **Ramon Aixa**, técnico en sistemas con experiencia en documentación IT, homelab y automatización. Este sitio es tanto una herramienta personal como una forma de mostrar mis capacidades técnicas a quien quiera verlas.
 
 
-🌐 Mi web [aqui](https://www.linkedin.com/in/ramon-aixa-juan) 
+🌐 Mi web [aqui](https://www.ramonaixa.com/)  
 📬 Contacto profesional en [LinkedIn](https://www.linkedin.com/in/ramon-aixa-juan)  
 🌍 Documentación online: [ramonaixa.github.io/ramonaixa-docs](https://ramonaixa.github.io/ramonaixa-docs)
 
@@ -31,15 +31,15 @@ Soy **Ramon Aixa**, técnico en sistemas con experiencia en documentación IT, h
 
 ## ⚙️ Tecnologías utilizadas
 
-| Herramienta               | Uso principal                                  |
-| ------------------------- | ---------------------------------------------- |
-| `MkDocs`                  | Motor de documentación estática                |
-| `Material for MkDocs`     | Tema visual avanzado y personalizable          |
-| `Markdown`                | Lenguaje base para todo el contenido           |
-| `Python` + `pip`          | Entorno de ejecución y dependencias            |
-| `pymdown-extensions`      | Extensiones avanzadas de Markdown              |
-| `tags plugin`             | Sistema de etiquetas para clasificar contenido |
-| `GitHub Pages` (opcional) | Despliegue estático de la documentación        |
+| Herramienta           | Uso principal                                  |
+| --------------------- | ---------------------------------------------- |
+| `MkDocs`              | Motor de documentación estática                |
+| `Material for MkDocs` | Tema visual avanzado y personalizable          |
+| `Markdown`            | Lenguaje base para todo el contenido           |
+| `Python` + `pip`      | Entorno de ejecución y dependencias            |
+| `pymdown-extensions`  | Extensiones avanzadas de Markdown              |
+| `tags plugin`         | Sistema de etiquetas para clasificar contenido |
+| `GitHub Pages`        | Despliegue estático de la documentación        |
 
 Además, uso `CSS` personalizado para adaptar el sitio a mi identidad visual, con colores como **cyan** y soporte para **modo claro y oscuro**.
 
