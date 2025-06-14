@@ -1,0 +1,141 @@
+# Project information
+site_name: Portfolio Técnico IT - Ramón Aixa
+site_author: Ramon Aixa
+site_url: https://ramonaixa.github.io/ramonaixa-docs/
+
+# Copyright
+copyright: Copyright &copy; 2025 Ramon Aixa
+
+# Theme
+theme:
+  name: material
+  language: es
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  icon:
+    tag:
+      default: material/tag
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - navigation.tabs
+    - navigation.indexes
+    # - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Cambiar a modo claro
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: cyan
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a preferencias del sistema
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.betterem
+  - pymdownx.critic:
+      mode: view
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+      use_pygments: true
+      auto_title: false
+      linenums: true
+      linenums_style: pymdownx-table
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+# Plugins
+plugins:
+  - search:
+      lang: es
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - tags:
+      tags_file: tags.md
+  - social
+
+# Extra configurations
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ramon-aixa-juan/
+      name: LinkedIn
+    - icon: simple/github
+      link: https://github.com/ramonaixa
+      name: GitHub
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:juanramonaixa@gmail.com
+      name: Correo electrónico
+  analytics:
+    provider: google
+    property: G-MFNBNE6N31
+    feedback:
+      title: ¿Fue útil esta página?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Esta página me ha sido útil
+          data: 1
+          note: >-
+            ¡Gracias por tus comentarios!
+        - icon: material/emoticon-sad-outline
+          name: Esta página se podría mejorar
+          data: 0
+          note: >-
+            ¡Gracias por tus comentarios! Ayúdanos a mejorar esta página
+            usando nuestro <a href="..." target="_blank" rel="noopener">formulario de comentarios</a>.
+
+# Navigation
+nav:
+  - Inicio: index.md
+  - Etiquetas: tags.md
